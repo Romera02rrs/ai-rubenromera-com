@@ -1,13 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import ThreeCard from "./ThreeCard.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>ai.rubenromera.com</p>
-      </header>
+      <ThreeCard />
     </div>
   );
 }
